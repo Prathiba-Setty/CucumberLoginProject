@@ -1,0 +1,358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Successful login with valid credintials",
+        "description": "",
+        "id": "application-login;successful-login-with-valid-credintials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21252305400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginCucumbertest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10021145800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \"test@email.com\" and password \"abcabc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 22
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginCucumbertest.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9674571900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks Go button",
+            "match": {
+              "location": "LoginCucumbertest.clicks_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363431000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "He can visit practice page",
+            "match": {
+              "location": "LoginCucumbertest.he_can_visit_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 308500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A message is displayed.",
+            "match": {
+              "location": "LoginCucumbertest.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Successful login with valid credintials",
+        "description": "",
+        "id": "application-login;successful-login-with-valid-credintials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18544740900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginCucumbertest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10013835000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \"test1@email.com\" and password \"abcabc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1@email.com",
+                  "offset": 22
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginCucumbertest.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7718627500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks Go button",
+            "match": {
+              "location": "LoginCucumbertest.clicks_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100303700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027VIKRAM-DELL-NEW\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Vikram\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: dadcb4b7e3c6fbcd88d6684a4df0944c\n*** Element info: {Using\u003dxpath, value\u003d//a[@href\u003d\u0027/pages/practice\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinations.LoginCucumbertest.he_can_visit_practice_page(LoginCucumbertest.java:78)\r\n\tat ✽.Then He can visit practice page(Login.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "He can visit practice page",
+            "match": {
+              "location": "LoginCucumbertest.he_can_visit_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "A message is displayed.",
+            "match": {
+              "location": "LoginCucumbertest.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Successful login with valid credintials",
+        "description": "",
+        "id": "application-login;successful-login-with-valid-credintials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18983587900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginCucumbertest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10962195300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \"test@email.com\" and password \"abcabc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 22
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginCucumbertest.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9959676000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks Go button",
+            "match": {
+              "location": "LoginCucumbertest.clicks_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375898500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "He can visit practice page",
+            "match": {
+              "location": "LoginCucumbertest.he_can_visit_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A message is displayed.",
+            "match": {
+              "location": "LoginCucumbertest.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Successful login with valid credintials",
+        "description": "",
+        "id": "application-login;successful-login-with-valid-credintials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19861153500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginCucumbertest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9870006500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username \"test1@email.com\" and password \"abcabc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1@email.com",
+                  "offset": 22
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginCucumbertest.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6855413000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks Go button",
+            "match": {
+              "location": "LoginCucumbertest.clicks_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93898000,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027VIKRAM-DELL-NEW\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Vikram\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0f7d70ea8018e61ef64eb3ea97d37f93\n*** Element info: {Using\u003dxpath, value\u003d//a[@href\u003d\u0027/pages/practice\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinations.LoginCucumbertest.he_can_visit_practice_page(LoginCucumbertest.java:78)\r\n\tat ✽.Then He can visit practice page(Login2.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "He can visit practice page",
+            "match": {
+              "location": "LoginCucumbertest.he_can_visit_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "A message is displayed.",
+            "match": {
+              "location": "LoginCucumbertest.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login2.feature"
+  }
+]
